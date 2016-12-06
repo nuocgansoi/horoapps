@@ -1,0 +1,21 @@
+{
+    "extends": "google",
+    "installedESLint": true,
+    "env": {
+        "browser": true,
+        "node": true,
+        "amd": true,
+        "es6": true,
+        "jquery": true
+    },
+    "rules" : {
+        "no-undef" : "off",
+        "valid-jsdoc" : "off",
+        "no-unused-vars" : "off",
+        "no-invalid-this" : "off",
+        "max-len" : "off"
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}

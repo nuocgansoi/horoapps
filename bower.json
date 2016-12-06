@@ -1,0 +1,27 @@
+{
+    "name": "app",
+    "description": "",
+    "main": "",
+    "authors": [
+        "Thanh Tran <thanhsm93@gmail.com>"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/thanhsm/laravel",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "resources/assets/vendor",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "v4.0.0-alpha.5",
+        "html5shiv": "^3.7.3",
+        "respond": "^1.4.2",
+        "summernote": "^0.8.2",
+        "font-awesome": "^4.7.0",
+        "animate.css": "^3.5.2"
+    }
+}

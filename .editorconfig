@@ -1,0 +1,18 @@
+# http://editorconfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Spaces in coffee
+[**.coffee]
+indent_style = space
+# Spaces in coffee
+[**.js]
+indent_style = space
+indent_size = 2

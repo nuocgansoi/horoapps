@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    height: 100%;
+    min-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    @include hover-focus() {
+        text-decoration: none !important;
+    }
+}
+
+.wrapper {
+    position: relative;
+    padding-top: 4rem;
+    min-height: 100%;
+}
+
+
+@media (max-width: 575px) {
+
+}

@@ -1,0 +1,1 @@
+@yield('after-footer')
